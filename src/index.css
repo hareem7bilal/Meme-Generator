@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Sedgwick Ave', cursive;
+  margin: 0;
+}
+
+main{
+  padding:20px 100px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+  padding: 20px;
+}
+
+.header--image {
+  height: 100%;
+}
+
+.header--title {
+ margin-right:auto;
+ margin-left:20px;
+ font-size:40px;
+ letter-spacing: 13px;
+}
+
+.header--project {
+  color:#3d0d4e;
+  font-size:30px;
+  font-weight:-10px;
+}
+
+.form{
+  display: grid;
+  grid-template:40px 0px / 1fr 1fr;
+  gap: 10px;
+}
+
+.form--input{
+  border: 5px solid purple ;
+  border-radius: 10px;
+  text-indent: 10px;
+}
+
+
+/* CSS */
+.button-71 {
+  background-color: #561558;
+  border: 0;
+  border-radius: 15px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 200;
+  outline: 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width:220px;
+  height: 45px;
+  margin-left:470px;
+}
+
+.button-71:before {
+  background-color: initial;
+  background-image: linear-gradient(#fff 0, rgba(138, 7, 98, 0) 100%);
+  border-radius: 125px;
+  content: "";
+  height: 30px;
+  left: 2px;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  transition: all .3s;
+  width: 100%;
+}
+
+.button-71:hover {
+  box-shadow: rgba(66, 10, 57, 0.144) 0 3px 15px inset, rgba(167, 105, 156, 0.1) 0 3px 5px, rgba(116, 17, 111, 0.1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
+@media (min-width: 20px) {
+  .button-71 {
+    padding: 8px 8px;
+  }
+}
+.meme {
+  position: relative;
+}
+
+.meme--image{
+  width:900px;
+  margin: 30px 150px;
+  border: solid black 10px;
+  }
+  
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 70px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
+
+
